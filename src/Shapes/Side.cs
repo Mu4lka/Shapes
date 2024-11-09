@@ -1,5 +1,8 @@
 ﻿namespace Shapes;
 
+/// <summary>
+/// Сторона
+/// </summary>
 public struct Side
 {
     private double _length;
@@ -10,6 +13,9 @@ public struct Side
         _length = length;
     }
 
+    /// <summary>
+    /// Длина
+    /// </summary>
     public double Length
     {
         get => _length;
@@ -19,7 +25,4 @@ public struct Side
             _length = value;
         }
     }
-
-    public override string ToString()
-        => _length.ToString();
 }

@@ -2,6 +2,8 @@
 using Shapes.Abstractions;
 using System.Globalization;
 
+namespace Shapes.Client.Factories;
+
 internal class TriangleCreator : IShapeCreator
 {
     public IShape Create(string input)

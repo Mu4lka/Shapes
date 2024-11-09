@@ -1,4 +1,6 @@
-﻿Console.ForegroundColor = ConsoleColor.Green;
+﻿using Shapes.Client.Factories;
+
+Console.ForegroundColor = ConsoleColor.Green;
 Console.WriteLine("Выберите фигуру чтобы вычислить ее площадь:");
 Console.WriteLine("Клавиша 1 - Треугольник");
 Console.WriteLine("Клавиша 2 - Круг");

@@ -1,6 +1,7 @@
-﻿using Shapes;
-using Shapes.Abstractions;
+﻿using Shapes.Abstractions;
 using System.Globalization;
+
+namespace Shapes.Client.Factories;
 
 internal class CircleCreator : IShapeCreator
 {

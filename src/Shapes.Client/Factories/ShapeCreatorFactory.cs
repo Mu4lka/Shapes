@@ -1,4 +1,6 @@
-﻿internal class ShapeCreatorFactory
+﻿namespace Shapes.Client.Factories;
+
+internal class ShapeCreatorFactory
 {
     public static IShapeCreator Create(ConsoleKey key)
         => key switch
