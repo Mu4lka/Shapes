@@ -8,7 +8,8 @@ public class TriangleTests
     [Theory, DoubleAutoData]
     public void Create_Should_ReturnTriangle_WhenExistTriangle(double side1, double side2)
     {
-        double side3 = (side1 + side2) - 1;
+        // Arrange
+        double side3 = side1 + side2 - 1;
 
         // Act
         var triangle = Triangle.Create(side1, side2, side3);
