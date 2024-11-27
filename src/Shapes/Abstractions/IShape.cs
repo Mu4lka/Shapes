@@ -6,7 +6,7 @@
 public interface IShape
 {
     /// <summary>
-    /// Расчитать площадь
+    /// Рассчитать площадь
     /// </summary>
     /// <returns>Площадь</returns>
     double CalculateArea();
